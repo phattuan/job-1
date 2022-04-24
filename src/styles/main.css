@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  overflow-x: hidden;
+  outline: none;
+}
+
+html ::-webkit-scrollbar {
+  width: 7px;
+}
+
+html ::-webkit-scrollbar-track {
+  background: black;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 62%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../public/image/6081479.jpg");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/image/6081479.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.container_ifras {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+  height: 400px;
+  padding: 1rem .5rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,49 @@
+.container_chart {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.container_chart .circular-chart {
+  display: block;
+  margin: 10px auto;
+  width: 70%;
+}
+
+.container_chart img {
+  position: absolute;
+  z-index: 100;
+  left: 36%;
+  top: 32%;
+  width: 50px;
+}
+
+.container_chart .circle {
+  stroke: deeppink;
+  fill: none;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  -webkit-animation: progress 1s ease-out forwards;
+          animation: progress 1s ease-out forwards;
+  -webkit-box-shadow: 0 0 5px deeppink;
+          box-shadow: 0 0 5px deeppink;
+}
+
+.container_chart .circle-bg {
+  fill: none;
+  stroke: deepskyblue;
+  stroke-width: 3px;
+}
+
+@-webkit-keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+/*# sourceMappingURL=doughnut_chart.css.map */

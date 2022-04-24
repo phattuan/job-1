@@ -1,0 +1,39 @@
+.container_chart{
+  position: relative;
+  width: 100%;
+  height: auto;
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    width: 70%;
+  
+  }
+  img{
+    position: absolute;
+    z-index: 100;
+    left: 36%;
+    top: 32%;
+    width: 50px;
+  }
+  
+  .circle {
+    stroke: deeppink;
+    fill: none;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+    box-shadow: 0 0 5px deeppink;
+  }
+  .circle-bg{
+      fill: none;
+      stroke: deepskyblue;
+      stroke-width: 3px;
+  }
+}
+
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}

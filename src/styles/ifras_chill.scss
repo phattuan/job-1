@@ -1,0 +1,100 @@
+$color-light: #999999;
+
+.contaier_ifras_chill {
+  // background: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 13%;
+  min-width: 150px;
+  height: 350px;
+  justify-content: center;
+  gap: 2.5rem;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 1px;
+
+  .container_row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    span {
+      text-align: center;
+      color: $color-light;
+      font-size: 1rem;
+      text-transform: capitalize;
+      &:first-child {
+        color: deepskyblue;
+        font-size: 1.3rem;
+      }
+      #donvi {
+        font-size: 0.7rem;
+      }
+    }
+    .contaier_row_chill {
+      display: flex;
+      flex-direction: row;
+      gap: 6rem;
+      span {
+        font-size: 0.7rem;
+        &:first-child {
+          font-size: 0.7rem;
+        }
+      }
+      &:first-child {
+        span:last-child {
+          color: deepskyblue;
+          font-weight: 900;
+        }
+      }
+      &:nth-child(2) {
+        span:last-child {
+          color: red;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+  .container_border_row {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid rgba(0, 191, 255, 0.6);
+    padding: 10px 5px;
+    box-shadow: 0 0 5px rgba(0, 191, 255, 0.4) inset,
+      0 0 5px rgba(0, 191, 255, 0.4);
+
+    .border {
+      position: absolute;
+
+      z-index: 100;
+      width: 10px;
+      height: 10px;
+      // background-color: red;
+    }
+    .border_top_left {
+      top: 0;
+      left: 0;
+      border-top: 3px solid deepskyblue;
+      border-left: 3px solid deepskyblue;
+    }
+    .border_top_right {
+      top: 0;
+      right: 0;
+      border-top: 3px solid deepskyblue;
+      border-right: 3px solid deepskyblue;
+    }
+    .border_bottom_left {
+      bottom: 0;
+      left: 0;
+      border-bottom: 3px solid deepskyblue;
+      border-left: 3px solid deepskyblue;
+    }
+    .border_bottom_right {
+      bottom: 0;
+      right: 0;
+      border-bottom: 3px solid deepskyblue;
+      border-right: 3px solid deepskyblue;
+    }
+  }
+}
