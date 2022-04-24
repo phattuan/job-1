@@ -3,6 +3,7 @@
   width: 100%;
   height: auto;
   .circular-chart {
+    overflow-y: hidden;
     display: block;
     margin: 10px auto;
     width: 70%;
@@ -11,8 +12,8 @@
   img{
     position: absolute;
     z-index: 100;
-    left: 36%;
-    top: 32%;
+    left: 37.5%;
+    top: 34%;
     width: 50px;
   }
   
