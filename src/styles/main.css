@@ -24,8 +24,8 @@ html ::-webkit-scrollbar-thumb {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 62%;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../public/image/6081479.jpg");
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/image/6081479.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../public/image/bg.jpg");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/image/bg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -44,7 +44,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 1rem;
-  height: 400px;
+  min-height: 400px;
   padding: 1rem .5rem;
 }
 /*# sourceMappingURL=main.css.map */

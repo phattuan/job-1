@@ -6,45 +6,45 @@ const solieu = [
   {
     'name': 'server',
     'so': 9.344,
-    'chart_solieu':'70, 100',
+    'chart_solieu':79.45,
     'img':'image/server.png'
   },
   {
     'name': 'pc',
     'so': 37.236,
-    'chart_solieu':'55, 100',
+    'chart_solieu':55,
     'img':'image/pc.png'
   },
   {
     'name': 'website',
     'so': 456,
-    'chart_solieu':'80, 100',
+    'chart_solieu':80.4,
     'img':'image/web.png'
   },
   {
     'name': 'application',
     'so': 15.8455,
-    'chart_solieu':'100, 100',
+    'chart_solieu':100,
     'img':'image/application.png'
   },
   {
     'name': 'network device',
     'so': 140,
-    'chart_solieu':'30, 100',
+    'chart_solieu':30.39,
     'img':'image/networking.png'
   },
   {
     'name': 'subcriber',
-    'so': '11',
+    'so': 11,
     'donvi':'M',
-    'chart_solieu':'45, 100',
+    'chart_solieu':45.5,
     'img':'image/subscriber.png'
   },
   {
     'name': 'mobile',
-    'so': '90',
+    'so': 90,
     'donvi':'M',
-    'chart_solieu':'60, 100',
+    'chart_solieu':67.2,
     'img':'image/mobile.png'
   }];
 

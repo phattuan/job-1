@@ -26,6 +26,7 @@ $color-light: #999999;
       &:first-child {
         color: deepskyblue;
         font-size: 1.3rem;
+        
       }
       #donvi {
         font-size: 0.7rem;
@@ -34,7 +35,7 @@ $color-light: #999999;
     .contaier_row_chill {
       display: flex;
       flex-direction: row;
-      gap: 6rem;
+      gap: 5.5vw;
       span {
         font-size: 0.7rem;
         &:first-child {
