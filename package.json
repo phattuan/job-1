@@ -2,7 +2,7 @@
   "name": "job-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/job-1/",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
