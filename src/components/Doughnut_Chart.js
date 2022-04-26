@@ -16,16 +16,19 @@ import '../styles/doughnut_chart.css'
 //   container_detail_chart.classList.remove('active');
 // }
 export default function Doughnut_Chart(props) {
-  let percent = `${(props.chart_solieu * 440)/100} 440`
-  let percent_1 = `${(props.chart_solieu * 220)/100} 220`
+  const percent = function(r){
+    return `${(props.chart_solieu * (2*r*3.14))/100} ${2*r*3.14}`
+  }
+  // let percent = `${(props.chart_solieu * 440)/100} 440`
+  // let percent_1 = `${(props.chart_solieu * 220)/100} 220`
   let detail_percent = Number.isInteger(props.chart_solieu);
   console.log(detail_percent)
   return (
     <div className='container_chart'>
       <svg class="circular-chart">
         <circle r="70" cx="70" cy="70" class="pie_bg"/>
-        <circle r="35" cx="70" cy="70" class="pie" stroke-dasharray={percent_1}/>
-        <circle r="70" cx="70" cy="70" class="pie_bor" stroke-dasharray={percent}/>
+        <circle r="35" cx="70" cy="70" class="pie" stroke-dasharray={percent(35)}/>
+        <circle r="70" cx="70" cy="70" class="pie_bor" stroke-dasharray={percent(70)}/>
       </svg>
       <img src={props.image}></img>
       <div className='container_detail_chart'>
